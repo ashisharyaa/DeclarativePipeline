@@ -1,0 +1,36 @@
+pipeline{
+
+agent any none
+
+stages{
+
+stage('Build'){
+
+echo "Code has build successfully"
+
+}
+
+stage('Test'){
+
+echo "Code has tested successfully"
+
+}
+
+stage('Deploy'){
+
+echo "Code has deployed successfully"
+
+}
+
+stage('Release'){
+
+echo "Code has released successfully"
+
+}
+
+
+
+}
+
+
+}
